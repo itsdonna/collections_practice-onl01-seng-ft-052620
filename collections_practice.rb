@@ -27,8 +27,7 @@ def reverse_array(rev)
   rev.reverse!
 end
 
-def kesha_maker(song)
-  song = ["blake", "ashley", "scott"]
-  def song(collection)
-  
+def kesha_maker(array)
+  array.each do |word| word[2] = "$"
+  end
 end
